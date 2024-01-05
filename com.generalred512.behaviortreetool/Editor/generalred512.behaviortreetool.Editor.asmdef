@@ -1,0 +1,6 @@
+﻿{
+  "name": "generalred512.behaviortreetool.Editor",
+  "references": [
+    "generalred512.behaviortreetool"
+  ]
+}

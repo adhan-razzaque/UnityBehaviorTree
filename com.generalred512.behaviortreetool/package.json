@@ -1,0 +1,19 @@
+{
+  "name": "com.generalred512.behaviortreetool",
+  "version": "1.0.0",
+  "displayName": "Unity Behavior Tree Tool",
+  "description": "This is a behavior tree tool with GUI",
+  "unity": "2022.3",
+  "unityRelease": "15f1",
+  "licensesUrl": "https://adhan-razzaque.mit-license.org/",
+  "keywords": [
+    "behavior tree",
+    "tool",
+    "gui"
+  ],
+  "author": {
+    "name": "Adhan Razzaque",
+    "email": "adhan.razzaque@gmail.com",
+    "url": "https://adhan-razzaque.github.io/"
+  }
+}
