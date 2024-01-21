@@ -1,6 +1,6 @@
 {
   "name": "com.generalred512.behaviortreetool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Unity Behavior Tree Tool",
   "description": "This is a behavior tree tool with GUI",
   "unity": "2022.3",
