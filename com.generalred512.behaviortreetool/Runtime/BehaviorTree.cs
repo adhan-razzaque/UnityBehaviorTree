@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
+
+#if (UNITY_EDITOR)
 using UnityEditor;
 using UnityEditor.Callbacks;
+#endif
 
 namespace GeneralRed512.BehaviorTreeTool
 {
@@ -22,7 +25,7 @@ namespace GeneralRed512.BehaviorTreeTool
             return state;
         }
         
-        #if (UNITY_EDITOR)
+#if (UNITY_EDITOR)
 
         public Node CreateNode(System.Type type)
         {
@@ -117,7 +120,7 @@ namespace GeneralRed512.BehaviorTreeTool
             return children;
         }
         
-        #endif
+#endif
 
         public BehaviorTree Clone()
         {
