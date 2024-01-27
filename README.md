@@ -5,3 +5,4 @@ it via git url
 <https://github.com/adhan-razzaque/UnityBehaviorTree.git?path=com.generalred512.behaviortreetool>
 or using the zip in the releases tab.
 
+![screenshot of the behavior tree tool](docs/images/behavior_tree.png)
