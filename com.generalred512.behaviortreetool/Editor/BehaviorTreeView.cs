@@ -57,14 +57,16 @@ public class BehaviorTreeView : GraphView
         _behaviorTree.nodes.ForEach(n =>
         {
             var children = _behaviorTree.GetChildren(n);
-            children.ForEach(c =>
+            for (int i = 0; i < children.Count; ++i)
             {
+                var c = children[i];
                 var parentView = FindNodeView(n);
                 var childView = FindNodeView(c);
 
                 var edge = parentView.Output.ConnectTo(childView.Input);
+                edge.tooltip = $"Index: {i}";
                 AddElement(edge);
-            });
+            }
         });
     }
 
